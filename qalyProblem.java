@@ -11,10 +11,10 @@ public class qalyProblem {
         while (sc.hasNext()) {
             float qaly = sc.nextFloat();
             float years = sc.nextFloat();
-            product = qaly + years;
+            product = qaly * years;
             total = total + product;
         }
-        System.out.println("total" + total);
+        System.out.println(total);
         sc.close();
     }
 }

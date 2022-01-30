@@ -17,6 +17,5 @@ public class fiftyShadesOfPink {
         else{
             System.out.println("I must watch Star Wars with my daughter");
         }
-
     }
 }

@@ -11,9 +11,7 @@ public class electricalOutlets {
                 maxOutlets = maxOutlets + sc.nextInt() - 1;
             }
             System.out.println(maxOutlets);
-
         }
-
-
+        sc.close();
     }
 }
